@@ -1,0 +1,21 @@
+    1  git --version
+    2  sudo yum -y update
+    3  sudo yum -y install git
+    4  git --version
+    5  git config --global user.name "carter-poynter"
+    6  git config --global user.email poynter8574@beltc.ctc.edu
+    7  git clone https://github.com/carter-poynter/IT252_assignment.git
+    8  cd /IT252_assignment
+    9  cd IT252_assignment/
+   10  git status
+   11  git add --all
+   12  git status
+   13  git commit
+   14  git commit -m "Added information about birds, insects, and reptiles."
+   15  git push
+   16  git config credential.helper 'cache --timeout 900'
+   17  git push
+   18  cd .git/config
+   19  git push
+   20  history
+   21  history>commands.txt
